@@ -1,22 +1,8 @@
-#!/usr/bin/env python
 
 import math
 import random
 
-def jdotj(a, b):
-	if len(a) != len(b):
-		print 'Sizes are not equal!'
-		return
-	res = 0
-	for i in xrange(len(a)):
-		res += a[i]*b[i] 
-	return res
 
-def ndotj(n, j):
-	return [n*i for i in j]
-
-def jaddj(a, b):
-	return [a[i]+b[i] for i in xrange(len(a))]
 
 class LinearReg:
 
